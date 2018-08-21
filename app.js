@@ -25,10 +25,10 @@ app.use((req, res, next) => {
 });
 
 //maintenance middleware
-app.use((req, res, next) => {
-   res.render("maintenance.hbs");
-
-});
+// app.use((req, res, next) => {
+//    res.render("maintenance.hbs");
+//
+// });
 
 /**
  * express middleware can be set to do anything like this ex where we are
