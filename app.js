@@ -77,9 +77,9 @@ app.get("/about", (req, res) => {
    });
 });
 
-app.get("/bad", (req, res) => {
-    res.send({
-        errorMessage : "Oops! Bad Request"
+app.get("/projects", (req, res) => {
+    res.render("projects.hbs", {
+        title : "Projects Page"
     });
 });
 
